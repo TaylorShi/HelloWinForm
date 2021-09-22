@@ -40,6 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsyncTaskForm.Designer.cs">
+      <DependentUpon>AsyncTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsyncTaskHelper.cs" />
     <Compile Include="MainEmptyForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -48,6 +55,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AsyncTaskForm.resx">
+      <DependentUpon>AsyncTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

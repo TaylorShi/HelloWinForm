@@ -14,7 +14,7 @@ namespace demoForFrame2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainEmptyForm());
+            Application.Run(new AsyncTaskForm());
         }
     }
 }
