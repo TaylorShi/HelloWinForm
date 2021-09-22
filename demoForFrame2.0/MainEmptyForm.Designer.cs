@@ -1,7 +1,7 @@
 ﻿
 namespace demoForFrame2._0
 {
-    partial class Form1
+    partial class MainEmptyForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -32,7 +32,7 @@ namespace demoForFrame2._0
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Text = "MainEmptyForm";
         }
 
         #endregion

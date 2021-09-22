@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace demoForFrame2._0
 {
-    public partial class Form1 : Form
+    public partial class MainEmptyForm : Form
     {
-        public Form1()
+        public MainEmptyForm()
         {
             InitializeComponent();
         }
